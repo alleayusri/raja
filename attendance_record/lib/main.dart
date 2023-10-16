@@ -112,8 +112,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sorting Dates and Names in Flutter"),
-        backgroundColor: Colors.redAccent,
+        title: Text("List View of Attendance Record"),
+        backgroundColor: Colors.blue,
         actions: [
           IconButton(
             icon: Icon(Icons.format_align_left),
